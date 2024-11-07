@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6e7dff, #5560ea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 480px;
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  .header {
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #7f8c8d;
+    font-size: 14px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+  
+  .result {
+    margin-top: 30px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .result h2 {
+    font-size: 22px;
+    color: #34495e;
+    margin-bottom: 15px;
+  }
+  
+  .result p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+      margin: 10px;
+    }
+  
+    h1 {
+      font-size: 26px;
+    }
+  
+    button {
+      font-size: 16px;
+    }
+  
+    .result h2 {
+      font-size: 20px;
+    }
+  
+    .result p {
+      font-size: 16px;
+    }
+  }
+  
